@@ -1,0 +1,46 @@
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (max-width: 767px){
+    body {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body {
+        width: 750px;
+        padding: 0 10px;
+    }
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1024px) {
+    body {
+        width: 980px;
+        padding: 0 15px;
+    }
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+    body {
+        width: 1200px;
+        padding: 0 20px;
+    }
+}
+body{
+	background-image: url(https://www.mallorcadiario.com/fotos/1/got1.jpg);
+	  background-repeat: no-repeat;
+  	  background-size: 1366px 768px;
+  	  text-align: center;
+}
+
+.video {
+
+	margin: 0 auto;
+	border: 20px outset #810F4D;
+
+}
+
+
+.center {
+	text-align: left;
+}

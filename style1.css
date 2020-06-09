@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Stoke&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Aladin&display=swap');
+
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (max-width: 767px){
+    body {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body {
+        width: 750px;
+        padding: 0 10px;
+    }
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1024px) {
+    body {
+        width: 980px;
+        padding: 0 15px;
+    }
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+    body {
+        width: 1200px;
+        padding: 0 20px;
+    }
+}
+
+body {
+
+	font-family: 'Stoke', serif;
+	background-image:  url(https://www.pewpewpew.de/wp-content/uploads/2019/05/got803.jpg);
+	width: 100%;
+
+}
+.minititlu{
+
+	padding-left: 280px;
+	padding-top: 100px;
+	color: white;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+
+color: white;
+margin-left:70px;
+
+}
+
+#header {
+
+	text-align: center;
+	font-family: 'Aladin', cursive;
+	font-size: 40px;
+	background-image: url(https://webcomicms.net/sites/default/files/clipart/133820/flames-images-133820-533584.jpg);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	line-height: .75;
+	margin: 20px 0;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#main {
+ text-indent: 50px;
+  color: black;
+}
+
+.imagine {
+	
+padding-bottom: -300px;
+margin-bottom:-220px;
+
+}
+table{
+			color: white;
+
+    		border: 2px solid white;
+
+
+    	}
+
+    	td{
+
+
+    		border: 2px solid white;
+
+    	}
+
+.scrismare {
+	font-size: 50px;
+	text-align: left;
+	margin-top: -250px;
+	color: white;
+}
+
+.nivel {
+	margin-top: -70px;
+}
+
+#footer {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+
+#title {
+	font-family: 'Aladin', cursive;
+		display: flex;
+	flex-direction: column;
+		justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: -185px;
+	color: white;
+
+}
+
+
+span {
+	background-image: url(https://webcomicms.net/sites/default/files/clipart/133820/flames-images-133820-533584.jpg);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 32px;
+	line-height: .75;
+	text-align: left;
+}
+/* styling my button */
+
+
+.top {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+.culoaree {
+	color: white;
+}
+audio {
+	display:none;
+}
